@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        .navbar {
+  width: 100%;
+  height: 50px;
+  left: 1;
+  display: flex;
+  top:50px;
+  justify-content: space-evenly;
+  font-size: 20px;
+ 
+ 
+ }
+ .logo{
+    background-color: black;
+    position: relative;
+    top:30px;
+ }
+ .hide{
+    position: relative;
+    left:300px;
+    display: flex;
+    justify-content: space-evenly;
+    width: 800px;
+   
+ }
+ .c{
+    position: relative;
+    left: 105px;
+    height: 50px;
+   
+ }
+ .r{
+    display: none;
+    position: relative;
+    right: 30px;
+    top:30px;
+    height: 180px;
+    background-color:aqua;
+ }
+ .c:hover + .r,.r:hover{
+     
+display: block;
+
+ }
+ .contact-btn {
+  color: white;
+  border: 1px solid black;
+  padding: 8px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+ height: 40px;
+  font-size: 20px;
+  margin-left: 20px;
+  position:relative;
+  right: 30px;
+  bottom:8px;
+  background-color: blue;
+}
+ .hel{
+    color:black;
+    position: relative;
+   bottom: 30px;
+
+ }
+.navbar-left{
+    position: relative;
+    bottom: 50px;
+}
+.div1{
+    height: 500px;
+    width: 400px;
+    background-color: whitesmoke;
+    position: relative;
+    left: 100px;
+    top:100px;
+    box-shadow: 5px 5px 10px gray;
+    text-align: center;
+}
+ 
+ .footer{
+height: 50vh;
+width: 100%;
+background-color: black;
+color:white;
+position: relative;
+bottom: -120px;
+}
+.h2f{
+    position: absolute;
+    margin: 50px 200px -90px 200px;
+    font-size:30px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    height: 15vh;
+    text-align: start;
+    width: 40vh;
+    display: grid;
+    place-items: center;
+}
+.bottom{
+    position: absolute;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin:250px 50px 0px 90px;
+    width: 25%;
+}
+.button{
+    height: 50px;
+    width: 150px;
+    border-radius: 4px;
+    font-size: 30px;
+    color: white;
+    border: 2px solid white;
+    background-color: black;
+}
+.butt{
+    position: absolute;
+    width: 150px;
+    margin: 50px 0px 0px 75%;
+    font-size: 30px;
+}
+
+.last{
+  width: 150px;
+  height: 50px;
+  color: white;
+  position: relative;
+  bottom: 60vh;
+  left:70%;
+  display: flex;
+  justify-content: space-evenly;
+}
+ .toggle{
+        display: none;
+        cursor: pointer;
+}
+.cont{
+  height: 107px;
+  width: 107px;
+  background-color: blue;
+  position: relative;
+  left: 1400px;
+  bottom:10vh;
+  border-radius: 100%;
+}
+.move-me {
+  transition: transform 0.5s ease;
+}
+
+.hover-trigger{
+  position: relative;
+  top: 50px;
+  left:3px;
+  font-size: 25px;
+ color: black;
+}
+.hover-trigger:hover ~ .move-me{
+  transform: translateY(-500px);
+ /* Move up by 500px */
+}
+.search-box {
+ display: none;
+  }
+
+#toggleSearch:checked ~ .search-box {
+    display: block;
+}
+label {
+    cursor: pointer;
+}
+.hover-blue {
+  transition: filter 0.3s ease;
+}
+
+.hover-blue:hover {
+  filter: hue-rotate(180deg);
+}
+
+
+
+ 
+    </style>
+</head>
+<body>
+    <nav class="navbar">
+<div class="navbar-left" onclick="location.reload()">
+    <h1><img src="https://jevelin.shufflehound.com/portfolio-freelance/wp-content/uploads/sites/35/2019/03/Jevelin_logo_light.png" alt="Jevelin Logo" class="logo"><h1></h1>
+</div>
+<div>
+
+  <div class="hide">
+    <h1 class="hel">Home</h1>
+
+    </a>
+    <h1 class="hel">Portfolio</h1>
+
+    <a href="#"><h1 class="hel"><i class="fab fa-facebook-f" onclick="location.reload()"></i></h1></a>
+    <a href="#"><h1 class="hel"><i class="fab fa-twitter" onclick="location.reload()"></i></h1></a>
+  <button class="contact-btn">Contact
+  </button>
+</div></div>
+</div>
+  <div class="c"><h1 class="hel">click here</h1>
+  </div>
+ <div class="r">
+    <a href="./family.html">family</a><br>
+    <a href="./architecture.html">architecture</a><br>
+    <a href="./model.html">model</a><br>
+    <a href="./wedding.html">wedding</a><br>
+    <a href="./events.html">events</a><br>
+  </div></div>
+</nav>
+  
+<div class="div1"><img src="https://jevelin.shufflehound.com/portfolio-freelance/wp-content/uploads/sites/35/2019/04/rowan-chestnut-m663zRzRe40-unsplash.jpg" alt="" height="400px" width="400px" class="hover-blue"><h1>EVENTS</h1></div>
+<div class="footer">
+        <div class="boxf"><h2 class="h2f">Let`s get in touch and create beautifulthings together</h2></div>
+        <div class="bottom"><p>Copyright © JevelinTheme - Theme by Shufflehound</p></div>
+        <div class="butt"><input type="button" value="Hire me" class="button">
+          <i class="fa-sharp fa-thin fa-location-arrow-up"></i>
+        </div>
+</div>
+
+<div class="last">
+  <i class="fa-brands fa-square-facebook"></i>
+  <i class="fa-brands fa-square-twitter"></i>
+  <i class="fa-brands fa-instagram"></i>
+  <i class="fa-brands fa-square-pinterest"></i></div>
+
+<div class="cont">
+  <a href="#" class="hover-trigger"> hover me</a>
+  <div class="move-me">I will move up</div>
+</div>
+    
+</body>
+</html>
